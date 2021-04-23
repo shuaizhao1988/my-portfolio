@@ -1,15 +1,16 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
-  --heading-font-family: "Playfair Display", serif;
+  --branding-color: #a8a6a1;
+  --secondary-color: #361718;
+  --heading-font-family: "Lobster", cursive;
   --default-font-family: "Poppins", sans-serif;
 }
 
 body {
   font-family: var(--default-font-family);
+  background-color: var(--secondary-color);
 }
 h1 {
-  font-size: 96px;
+  font-size: 85px;
 }
 h1,
 h2,
@@ -18,29 +19,33 @@ h4,
 h5,
 h6 {
   font-family: var(--heading-font-family);
-  color: black;
+  color: var(--branding-color);
   font-weight: bold;
   margin-top: 0;
 }
 
+nav {
+  opacity: 0.2;
+}
+
 .hero {
   text-align: center;
-  background-color: var(--secondary-color);
-  padding: 60px 20px;
+  padding: 20px 20px;
+ 
 }
 
 .hero p {
-  font-size: 36px;
+  font-size: 38px;
   font-weight: bold;
   margin: 0;
-  color: black;
+  color: var(--branding-color);
   opacity: 0.7;
 }
 
 .hero h2 {
   font-weight: normal;
   line-height: 2;
-  font-size: 24px;
+  font-size: 30px;
 }
 
 .mb-5 {
@@ -49,23 +54,29 @@ h6 {
 
 .btn-branding {
   background-color: var(--branding-color);
-  border-radius: 4px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 27px;
-  padding: 15px 30px;
+  padding: 10px 20px;
   margin: 0 auto;
 }
 
 .btn {
   display: inline-block;
   text-align: center;
-  font-weight: 400;
+  font-weight: 300;
   text-decoration: none;
   cursor: pointer;
-  border: 1px solid transparent;
-  color: white;
+  border: 1px solid transparent 0.5;
+  color: var(--secondary-color);
+  margin-top: 50px;
 }
 
 .btn:hover {
-  color: #212529;
+  color: black;
+}
+
+img {
+  width: 500px;
+  height: 600px;
+  margin-top: 10px;
 }
