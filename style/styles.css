@@ -28,6 +28,16 @@ nav {
   opacity: 0.2;
 }
 
+img {
+  width: 500px;
+  height: 600px;
+  margin-top: 10px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
 .hero {
   text-align: center;
   padding: 20px 20px;
@@ -69,18 +79,42 @@ nav {
   border: 1px solid transparent 0.5;
   color: var(--secondary-color);
   margin-top: 50px;
+  border-radius: 1px;
 }
 
 .btn:hover {
   color: black;
 }
 
-img {
-  width: 500px;
-  height: 600px;
-  margin-top: 10px;
+
+.description {
+  color: white;
+  opacity: 0.5;
 }
 
-h3 {
-  font-size: 35px;
+.card {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+
+@media (max-width: 900px){
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .hero {
+    padding: 50px 10px;
+  }
+
+}
+
+#about-me {
+  font-size: 45px;
+}
+
+#projects {
+  font-size: 45px;
 }
