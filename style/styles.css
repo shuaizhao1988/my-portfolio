@@ -41,7 +41,6 @@ h3 {
 .hero {
   text-align: center;
   padding: 20px 20px;
- 
 }
 
 .hero p {
@@ -86,19 +85,18 @@ h3 {
   color: black;
 }
 
-
 .description {
   color: white;
   opacity: 0.5;
 }
 
 .card {
-  display: flex;
-  justify-content: center;
+  display: inline-block;
+  text-align: center;
   max-width: 100%;
 }
 
-@media (max-width: 900px){
+@media (max-width: 900px) {
   h1 {
     font-size: 60px;
   }
@@ -108,13 +106,23 @@ h3 {
   .hero {
     padding: 50px 10px;
   }
+}
 
+.title {
+  font-size: 45px;
+  padding-bottom: 10px;
+}
+
+.email {
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
 }
 
 #about-me {
-  font-size: 45px;
-}
-
-#projects {
-  font-size: 45px;
+  font-size: 20px;
+  color: black;
+  font-family: var(--default-font-family);
+  font-weight: bold;
+  line-height: 1.4;
 }
