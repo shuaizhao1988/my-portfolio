@@ -116,17 +116,23 @@ h3 {
     line-height: 1.5;
 }
 
+.project-name {
+  font-family: var(--default-font-family);
+  font-size: 30px;
+}
+
 
 #about-me {
-  font-size: 20px;
+  font-size: 18px;
   color: black;
   font-family: var(--default-font-family);
   font-weight: bold;
-  line-height: 1.4;
-  margin: 20px 35px;
+  line-height: 1.5;
+  margin: 20px 58px;
 }
+
 #work {
-  font-size: 20px;
+  font-size: 18px;
   color: black;
   font-family: var(--default-font-family);
   font-weight: bold;
