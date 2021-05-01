@@ -154,6 +154,11 @@ h3 {
   margin: 20px 35px;
 }
 
+#contact {
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 60px;
