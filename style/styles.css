@@ -121,6 +121,15 @@ h3 {
   font-size: 30px;
 }
 
+.icons a{
+  color: black;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.icons a:hover {
+  color: blue;
+}
 
 #about-me {
   font-size: 18px;
