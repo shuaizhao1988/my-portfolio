@@ -131,6 +131,12 @@ h3 {
   color: blue;
 }
 
+.open-sourced {
+  font-style: italic;
+  font-size: 12px;
+  color: var(--branding-color);
+}
+
 #about-me {
   font-size: 18px;
   color: black;
